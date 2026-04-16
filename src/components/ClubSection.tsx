@@ -24,7 +24,7 @@ const ClubSection = () => {
         <h2 className="text-fluid-h2 font-heading text-white mb-4">
           Все что нужно для старта - уже готово
         </h2>
-        <p className="text-fluid-body text-[#888] mb-10 max-w-2xl">
+        <p className="text-fluid-body mb-10 max-w-2xl" style={{ color: '#a3a3a3' }}>
           Не курс с видео. Закрытый клуб с системой, шаблонами и поддержкой
         </p>
 
@@ -60,7 +60,7 @@ const ClubSection = () => {
           </div>
 
           <div className="flex-1">
-            <p className="text-sm text-[#888] mb-6">
+            <p className="text-sm mb-6" style={{ color: '#a3a3a3' }}>
               AI Models Factory - закрытый клуб в Telegram. 35 участников, от программистов до бухгалтеров, Москва/Берлин/весь мир
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -69,7 +69,7 @@ const ClubSection = () => {
                   <div className="w-8 h-8 rounded-lg bg-[#a855f7]/10 flex items-center justify-center shrink-0">
                     <Icon name={item.icon} size={16} className="text-[#a855f7]" />
                   </div>
-                  <span className="text-sm text-[#ccc]">{item.title}</span>
+                  <span className="text-sm" style={{ color: '#e5e5e5' }}>{item.title}</span>
                 </div>
               ))}
             </div>

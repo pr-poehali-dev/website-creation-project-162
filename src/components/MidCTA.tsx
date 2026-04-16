@@ -17,7 +17,7 @@ const MidCTA = () => {
             </p>
 
             <div className="max-w-md mx-auto mb-6">
-              <div className="flex justify-between text-xs text-[#888] mb-2">
+              <div className="flex justify-between text-xs mb-2" style={{ color: '#a3a3a3' }}>
                 <span>Занято</span>
                 <span>35 / 50</span>
               </div>
@@ -42,11 +42,11 @@ const MidCTA = () => {
               Занять место в клубе
             </a>
 
-            <p className="text-sm text-[#888] mb-4">
+            <p className="text-sm mb-4" style={{ color: '#a3a3a3' }}>
               Откроется мой Telegram - там все обсудим и оформим вступление
             </p>
 
-            <p className="text-xs text-[#555]">
+            <p className="text-xs" style={{ color: '#a3a3a3' }}>
               После 50 участников цена - 14 900 руб
             </p>
           </div>

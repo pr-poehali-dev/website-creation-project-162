@@ -63,13 +63,13 @@ const StepsSection = () => {
               </div>
               <p className="text-white font-medium mb-1">{s.title}</p>
               <p className="text-xs mb-3" style={{ color: s.color }}>{s.time}</p>
-              <p className="text-sm text-[#888]">{s.desc}</p>
+              <p className="text-sm" style={{ color: '#a3a3a3' }}>{s.desc}</p>
             </div>
           ))}
         </div>
 
         <div className="card-dark p-6 text-center">
-          <p className="text-fluid-body text-[#ccc]">
+          <p className="text-fluid-body" style={{ color: '#e5e5e5' }}>
             Стоимость запуска одного персонажа: <span style={{ color: '#00ff88' }} className="font-bold">$15-20</span>
           </p>
         </div>

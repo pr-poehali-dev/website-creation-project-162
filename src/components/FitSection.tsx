@@ -36,7 +36,7 @@ const FitSection = () => {
                   <div className="w-6 h-6 rounded-full bg-[#00ff88]/10 flex items-center justify-center shrink-0">
                     <Icon name="Check" size={14} className="text-[#00ff88]" />
                   </div>
-                  <span className="text-fluid-small text-[#ccc]">{f}</span>
+                  <span className="text-fluid-small" style={{ color: '#e5e5e5' }}>{f}</span>
                 </li>
               ))}
             </ul>
@@ -50,7 +50,7 @@ const FitSection = () => {
                   <div className="w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center shrink-0">
                     <Icon name="X" size={14} className="text-red-400" />
                   </div>
-                  <span className="text-fluid-small text-[#ccc]">{f}</span>
+                  <span className="text-fluid-small" style={{ color: '#e5e5e5' }}>{f}</span>
                 </li>
               ))}
             </ul>

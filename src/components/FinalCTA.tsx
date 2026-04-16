@@ -14,7 +14,7 @@ const FinalCTA = () => {
           <div className="absolute inset-0 animate-shimmer" />
           <div className="relative z-10">
             <div className="max-w-md mx-auto mb-8">
-              <div className="flex justify-between text-xs text-[#888] mb-2">
+              <div className="flex justify-between text-xs mb-2" style={{ color: '#a3a3a3' }}>
                 <span>Занято</span>
                 <span>35 / 50</span>
               </div>
@@ -29,16 +29,16 @@ const FinalCTA = () => {
               </div>
             </div>
 
-            <p className="text-sm text-[#888] mb-6">
+            <p className="text-sm mb-6" style={{ color: '#a3a3a3' }}>
               После 50 участников цена вырастет до 14 900 руб
             </p>
 
             <div className="flex items-center justify-center gap-4 mb-4">
-              <span className="text-2xl text-[#555] line-through font-heading">14 900 руб</span>
+              <span className="text-2xl line-through font-heading" style={{ color: '#737373' }}>14 900 руб</span>
               <span className="text-4xl md:text-5xl font-heading font-bold" style={{ color: '#00ff88' }}>9 900 руб</span>
             </div>
 
-            <p className="text-sm text-[#888] mb-8">
+            <p className="text-sm mb-8" style={{ color: '#a3a3a3' }}>
               Один раз. Навсегда. Заплатил один раз - получил все. Обновления, поддержка - навсегда
             </p>
 
@@ -50,7 +50,7 @@ const FinalCTA = () => {
               Вступить в клуб - 9 900 руб
             </h2>
 
-            <p className="text-sm text-[#888] mb-8 max-w-md mx-auto">
+            <p className="text-sm mb-8 max-w-md mx-auto" style={{ color: '#a3a3a3' }}>
               Нажми кнопку ниже, откроется мой личный диалог в Telegram. Там обсудим детали и оформим вступление
             </p>
 
@@ -63,7 +63,7 @@ const FinalCTA = () => {
               Начать зарабатывать
             </a>
 
-            <p className="text-xs text-[#444] mt-6 max-w-md mx-auto">
+            <p className="text-xs mt-6 max-w-md mx-auto" style={{ color: '#737373' }}>
               Результаты - мой личный опыт. Ваш результат зависит от вложенных усилий, времени и рыночных условий
             </p>
           </div>

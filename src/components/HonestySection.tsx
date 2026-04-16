@@ -26,7 +26,7 @@ const HonestySection = () => {
           {nos.map((n) => (
             <div key={n} className="card-dark p-5 flex items-center gap-3 border-l-4" style={{ borderLeftColor: '#ef4444' }}>
               <Icon name="X" size={18} className="text-red-400 shrink-0" />
-              <span className="text-fluid-small text-[#ccc]">{n}</span>
+              <span className="text-fluid-small" style={{ color: '#e5e5e5' }}>{n}</span>
             </div>
           ))}
         </div>
@@ -35,7 +35,7 @@ const HonestySection = () => {
           {yeses.map((y) => (
             <div key={y} className="card-dark p-5 flex items-center gap-3 border-l-4" style={{ borderLeftColor: '#00ff88' }}>
               <Icon name="Check" size={18} className="text-[#00ff88] shrink-0" />
-              <span className="text-fluid-small text-[#ccc]">{y}</span>
+              <span className="text-fluid-small" style={{ color: '#e5e5e5' }}>{y}</span>
             </div>
           ))}
         </div>

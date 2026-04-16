@@ -17,10 +17,13 @@ const StatsBreak = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((s) => (
               <div key={s.label} className="text-center">
-                <p className="text-3xl md:text-4xl font-heading font-bold gradient-text mb-1">
+                <p
+                  className="text-3xl md:text-4xl font-heading font-bold mb-1"
+                  style={{ color: '#00ff88' }}
+                >
                   {s.value}
                 </p>
-                <p className="text-sm text-[#888]">{s.label}</p>
+                <p className="text-sm" style={{ color: '#a3a3a3' }}>{s.label}</p>
               </div>
             ))}
           </div>

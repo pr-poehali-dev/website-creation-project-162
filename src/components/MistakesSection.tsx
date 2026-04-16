@@ -25,7 +25,7 @@ const MistakesSection = () => {
         <h2 className="text-fluid-h2 font-heading text-white mb-4">
           Три ошибки которые стоили мне 2 месяца
         </h2>
-        <p className="text-fluid-body text-[#888] mb-8">
+        <p className="text-fluid-body mb-8" style={{ color: '#a3a3a3' }}>
           Первый месяц я заработал $40. Вот почему:
         </p>
 
@@ -42,7 +42,7 @@ const MistakesSection = () => {
                 </div>
                 <div>
                   <p className="text-white font-medium mb-1">Ошибка {i + 1}: {m.title}</p>
-                  <p className="text-sm text-[#888]">{m.desc}</p>
+                  <p className="text-sm" style={{ color: '#a3a3a3' }}>{m.desc}</p>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const MistakesSection = () => {
         </div>
 
         <div className="card-dark p-6 border-l-4" style={{ borderLeftColor: '#00ff88' }}>
-          <p className="text-fluid-body text-[#ccc]">
+          <p className="text-fluid-body" style={{ color: '#e5e5e5' }}>
             Когда закрыл все три - рост пошел. С $40 до $745 за 8 дней. В клубе эти ошибки закрыты с первого дня
           </p>
         </div>

@@ -39,7 +39,7 @@ const PricingSection = () => {
             <div className="space-y-3">
               {launchCosts.map((c) => (
                 <div key={c.item} className="flex justify-between items-center border-b border-white/5 pb-3">
-                  <span className="text-sm text-[#888]">{c.item}</span>
+                  <span className="text-sm" style={{ color: '#a3a3a3' }}>{c.item}</span>
                   <span className="text-sm text-white font-medium">{c.cost}</span>
                 </div>
               ))}
@@ -55,7 +55,7 @@ const PricingSection = () => {
             <div className="space-y-3">
               {monthlyCosts.map((c) => (
                 <div key={c.item} className="flex justify-between items-center border-b border-white/5 pb-3">
-                  <span className="text-sm text-[#888]">{c.item}</span>
+                  <span className="text-sm" style={{ color: '#a3a3a3' }}>{c.item}</span>
                   <span className="text-sm text-white font-medium">{c.cost}</span>
                 </div>
               ))}
@@ -72,18 +72,18 @@ const PricingSection = () => {
           <table className="w-full">
             <thead>
               <tr className="border-b border-white/10">
-                <th className="text-left p-4 text-sm text-[#888] font-normal">Параметр</th>
-                <th className="text-center p-4 text-sm text-[#888] font-normal">Сам</th>
-                <th className="text-center p-4 text-sm text-[#888] font-normal">Курсы</th>
+                <th className="text-left p-4 text-sm font-normal" style={{ color: '#a3a3a3' }}>Параметр</th>
+                <th className="text-center p-4 text-sm font-normal" style={{ color: '#a3a3a3' }}>Сам</th>
+                <th className="text-center p-4 text-sm font-normal" style={{ color: '#a3a3a3' }}>Курсы</th>
                 <th className="text-center p-4 text-sm font-medium" style={{ color: '#00ff88' }}>Клуб</th>
               </tr>
             </thead>
             <tbody>
               {comparison.map((row) => (
                 <tr key={row.param} className="border-b border-white/5">
-                  <td className="p-4 text-sm text-[#ccc]">{row.param}</td>
-                  <td className="p-4 text-sm text-[#555] text-center">{row.self}</td>
-                  <td className="p-4 text-sm text-[#555] text-center">{row.course}</td>
+                  <td className="p-4 text-sm" style={{ color: '#e5e5e5' }}>{row.param}</td>
+                  <td className="p-4 text-sm text-center" style={{ color: '#a3a3a3' }}>{row.self}</td>
+                  <td className="p-4 text-sm text-center" style={{ color: '#a3a3a3' }}>{row.course}</td>
                   <td className="p-4 text-sm text-white text-center font-medium">{row.club}</td>
                 </tr>
               ))}
@@ -95,15 +95,15 @@ const PricingSection = () => {
         <div className="md:hidden space-y-4">
           {comparison.map((row) => (
             <div key={row.param} className="card-dark p-4">
-              <p className="text-xs text-[#888] mb-2">{row.param}</p>
+              <p className="text-xs mb-2" style={{ color: '#a3a3a3' }}>{row.param}</p>
               <div className="grid grid-cols-3 gap-2">
                 <div className="text-center">
-                  <p className="text-xs text-[#555] mb-1">Сам</p>
-                  <p className="text-sm text-[#888]">{row.self}</p>
+                  <p className="text-xs mb-1" style={{ color: '#a3a3a3' }}>Сам</p>
+                  <p className="text-sm" style={{ color: '#a3a3a3' }}>{row.self}</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-xs text-[#555] mb-1">Курсы</p>
-                  <p className="text-sm text-[#888]">{row.course}</p>
+                  <p className="text-xs mb-1" style={{ color: '#a3a3a3' }}>Курсы</p>
+                  <p className="text-sm" style={{ color: '#a3a3a3' }}>{row.course}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-xs mb-1" style={{ color: '#00ff88' }}>Клуб</p>

@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="font-heading text-lg tracking-widest text-white mb-2">
               AI MODELS FACTORY
             </p>
-            <p className="text-sm text-[#888] mb-3">
+            <p className="text-sm mb-3" style={{ color: '#a3a3a3' }}>
               Закрытый клуб по созданию AI-инфлюенсеров
             </p>
             <a
@@ -22,7 +22,7 @@ const Footer = () => {
             >
               @ai_zavarushka
             </a>
-            <p className="text-xs text-[#444] mt-4">&copy; 2026 AI Models Factory</p>
+            <p className="text-xs mt-4" style={{ color: '#737373' }}>&copy; 2026 AI Models Factory</p>
           </div>
 
           <div>
@@ -33,24 +33,25 @@ const Footer = () => {
                   href={TG_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-[#888] hover:text-white transition-colors flex items-center gap-2"
+                  className="text-sm hover:text-white transition-colors flex items-center gap-2"
+                  style={{ color: '#a3a3a3' }}
                 >
                   <Icon name="Send" size={14} />
                   Написать в Telegram
                 </a>
               </li>
               <li>
-                <a href="/oferta" className="text-sm text-[#888] hover:text-white transition-colors">
+                <a href="/oferta" className="text-sm hover:text-white transition-colors" style={{ color: '#a3a3a3' }}>
                   Оферта
                 </a>
               </li>
               <li>
-                <a href="/privacy" className="text-sm text-[#888] hover:text-white transition-colors">
+                <a href="/privacy" className="text-sm hover:text-white transition-colors" style={{ color: '#a3a3a3' }}>
                   Политика конфиденциальности
                 </a>
               </li>
               <li>
-                <a href="/requisites" className="text-sm text-[#888] hover:text-white transition-colors">
+                <a href="/requisites" className="text-sm hover:text-white transition-colors" style={{ color: '#a3a3a3' }}>
                   Реквизиты
                 </a>
               </li>

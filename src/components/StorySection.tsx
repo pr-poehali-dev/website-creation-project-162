@@ -9,7 +9,7 @@ const StorySection = () => {
         <h2 className="text-fluid-h2 font-heading text-white mb-6">
           Почему я начал этим заниматься
         </h2>
-        <div className="max-w-3xl space-y-4 text-fluid-body text-[#ccc]">
+        <div className="max-w-3xl space-y-4 text-fluid-body" style={{ color: '#e5e5e5' }}>
           <p>
             В декабре 2025 копался в западном рынке, наткнулся на нишу виртуальных инфлюенсеров. Купил зарубежный курс за $200. Обалдел от цифр - люди зарабатывают тысячи долларов в месяц на персонажах, которых не существует
           </p>

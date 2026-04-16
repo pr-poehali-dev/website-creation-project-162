@@ -24,13 +24,13 @@ const ProblemsSection = () => {
               <div className="w-8 h-8 rounded-lg bg-red-500/10 flex items-center justify-center shrink-0 mt-0.5">
                 <Icon name="AlertTriangle" size={16} className="text-red-400" />
               </div>
-              <p className="text-fluid-small text-[#ccc]">{p}</p>
+              <p className="text-fluid-small" style={{ color: '#e5e5e5' }}>{p}</p>
             </div>
           ))}
         </div>
 
         <div className="card-dark p-6 border-l-4" style={{ borderLeftColor: '#a855f7' }}>
-          <p className="text-fluid-body text-[#ccc]">
+          <p className="text-fluid-body" style={{ color: '#e5e5e5' }}>
             Умение создавать контент без системы - это хобби. С системой - бизнес
           </p>
         </div>

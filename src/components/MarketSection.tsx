@@ -22,7 +22,7 @@ const MarketSection = () => {
         <h2 className="text-fluid-h2 font-heading text-white mb-4">
           Виртуальные инфлюенсеры - рынок на 24 миллиарда
         </h2>
-        <p className="text-fluid-body text-[#888] mb-6 max-w-3xl">
+        <p className="text-fluid-body mb-6 max-w-3xl" style={{ color: '#a3a3a3' }}>
           Виртуальный инфлюенсер - это персонаж, которого не существует в реальности. Нейросеть генерирует уникальное лицо, тело, стиль. Ты публикуешь контент от его имени в TikTok и Instagram. Аудитория растет, подписчики платят за эксклюзив
         </p>
 
@@ -33,7 +33,7 @@ const MarketSection = () => {
                 <Icon name={f.icon} size={24} className="text-[#00e5ff]" />
               </div>
               <p className="text-2xl font-bold text-white mb-2 font-heading">{f.value}</p>
-              <p className="text-sm text-[#888]">{f.label}</p>
+              <p className="text-sm" style={{ color: '#a3a3a3' }}>{f.label}</p>
             </div>
           ))}
         </div>
@@ -48,13 +48,13 @@ const MarketSection = () => {
                 <Icon name={m.icon} size={20} className="text-[#00ff88]" />
               </div>
               <p className="text-white font-medium mb-2">{m.title}</p>
-              <p className="text-sm text-[#888]">{m.desc}</p>
+              <p className="text-sm" style={{ color: '#a3a3a3' }}>{m.desc}</p>
             </div>
           ))}
         </div>
 
         <div className="card-dark p-6 border-l-4" style={{ borderLeftColor: '#00ff88' }}>
-          <p className="text-fluid-body text-[#ccc]">
+          <p className="text-fluid-body" style={{ color: '#e5e5e5' }}>
             Это легально. Не используется чье-то настоящее лицо. Все генерируется нейросетью с нуля
           </p>
         </div>

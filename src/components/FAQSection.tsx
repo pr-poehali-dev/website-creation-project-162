@@ -55,12 +55,13 @@ const FAQSection = () => {
                 <Icon
                   name={open === i ? 'ChevronUp' : 'ChevronDown'}
                   size={18}
-                  className="text-[#888] shrink-0"
+                  className="shrink-0"
+                  style={{ color: '#a3a3a3' }}
                 />
               </button>
               {open === i && (
                 <div className="px-5 pb-5">
-                  <p className="text-sm text-[#888] leading-relaxed">{faq.a}</p>
+                  <p className="text-sm leading-relaxed" style={{ color: '#a3a3a3' }}>{faq.a}</p>
                 </div>
               )}
             </div>
